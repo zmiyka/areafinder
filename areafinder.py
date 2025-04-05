@@ -3,11 +3,12 @@ import math
 def calculate_cyrcle(radius):
     """Формула кола: π * (r * r)"""
     area = radius * 3.14 * 2
-    return(area)
+    return area
 
-def calculate_trapisium():
-    """Формула: A = (1/2 * ah)+(1/2 * bh)"""
-    
+def calculate_trapisium(hight, base):
+    """Формула: A = (1/2 * bh)+(1/2 * bh)"""
+    area = hight * base / 2
+    return area + area
 
 def calculate_parallelogram_area(side: float, height: float):
     """Обчислює площу паралелограма за стороною та висотою проведеною до неї"""
