@@ -10,12 +10,12 @@ def calculate_parallelogram_area(side: float, height: float):
     return side * height
 
 def calculate_free_triangle_area(side1, side2, side3):
-    """Обцислює трикутника за трьома сторонами"""
+    """Обчислює трикутника за трьома сторонами"""
     p = (side1 + side2 + side3)/2
     area = math.sqrt(p * (p - side1) * (p - side2) * (p -side3))
     return area
 
 def calculate_right_triangle_area(side1, side2):
-    """Обцислює трикутника за трьома сторонами"""
+    """Обчислює трикутника за трьома сторонами"""
     area = (side1 * side2)/2
     return area
