@@ -5,6 +5,10 @@ def calculate_cyrcle(radius):
     area = radius * 3.14 * 2
     return(area)
 
+def calculate_trapisium():
+    """Формула: A = (1/2 * ah)+(1/2 * bh)"""
+    
+
 def calculate_parallelogram_area(side: float, height: float):
     """Обчислює площу паралелограма за стороною та висотою проведеною до неї"""
     return side * height
