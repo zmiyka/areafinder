@@ -14,6 +14,10 @@ def check_anwser():
         radius = float(input("Який радіус"))
         print(af.calculate_cyrcle(radius))
     elif anwser == "5":
-        print(af.calculate_parallelogram_area)
+        side = float(input("Яка довжина сторони"))
+        height = float(input("Яка висота"))
+        print(af.calculate_parallelogram_area(side, height))
     elif anwser == "6":
-        print(af.calculate_trapisium)
+        hight = float(input("Яка висота"))
+        base = float(input("Яка довжина"))
+        print(af.calculate_trapisium(hight, base))
