@@ -23,3 +23,12 @@ def calculate_right_triangle_area(side1, side2):
     """Обчислює трикутника за трьома сторонами"""
     area = (side1 * side2)/2
     return area
+
+def calculate_isosceles_triangle(base, height):
+    area = (base * height)/2
+    return area
+
+def calculate_sqare_area(side):
+    area = side * side
+    return area
+
