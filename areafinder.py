@@ -23,7 +23,17 @@ def calculate_free_triangle_area(side1, side2, side3):
 def calculate_right_triangle_area(side1, side2):
     """Обчислює трикутника за трьома сторонами"""
     area = (side1 * side2)/2
-    return area
+    return area 
+
+def calculate_rectangle(lenght, width):
+    """формула прямокутника"""
+    area = lenght * width 
+    return area 
+
+def calculate_equilateral_triangle(side):
+    """формула рівностоінного трикутника"""
+    area = (side ** 2 * math.sqrt(3)) /4
+    return area 
 
 def calculate_isosceles_triangle(base, height):
     area = (base * height)/2
@@ -32,4 +42,3 @@ def calculate_isosceles_triangle(base, height):
 def calculate_sqare_area(side):
     area = side * side
     return area
-
