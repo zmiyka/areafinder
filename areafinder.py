@@ -34,3 +34,11 @@ def calculate_equilateral_triangle(side):
     """формула рівностоінного трикутника"""
     area = (side ** 2 * math.sqrt(3)) /4
     return area 
+
+def calculate_isosceles_triangle(base, height):
+    area = (base * height)/2
+    return area
+
+def calculate_sqare_area(side):
+    area = side * side
+    return area
